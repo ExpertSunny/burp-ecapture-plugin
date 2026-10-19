@@ -1,0 +1,24 @@
+# upstream eCapture checkout (separate project, not redistributed)
+# (leading slash: only the top-level folder, not src/main/java/com/ecapture)
+/ecapture/
+
+# build output and downloaded dependencies (build.bat recreates them)
+/build/
+/lib/
+*.class
+*.jar
+
+# editor / tool / OS files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+AGENTS.local.md
+.cursor/
+.copilot/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
